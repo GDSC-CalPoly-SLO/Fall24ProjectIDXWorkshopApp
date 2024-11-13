@@ -1,0 +1,21 @@
+
+.title {
+    text-align:center;
+}
+
+.taskContainer {
+    margin-top:3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.componentContainer {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius:1vh;
+
+}
+.componentContainer > * {
+    margin:3vh;
+}

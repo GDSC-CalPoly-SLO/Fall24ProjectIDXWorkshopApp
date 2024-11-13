@@ -1,14 +1,11 @@
-import HomePage from "./home/page";
-import HelpPage from "./task/addTasks";
-import AccountPage from "./task/tasks";
-import Navbar from "@/components/nav";
-import styles from "@/styles/Home.module.css";
+'use client'
+import LoginPage from "@/components/userAccountForm";
 
 
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>
+      <LoginPage></LoginPage>
     </>
   );
 }

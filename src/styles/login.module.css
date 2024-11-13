@@ -1,0 +1,56 @@
+/* src/styles/login
+.module.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make container take full viewport height */
+    width: 100%;
+    background-color: #f4f4f4; /* Light background */
+  }
+  
+  .login-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Darker text color */
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 
+  0.1); /* Subtle shadow */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Slightly lighter text for labels */
+  }
+  
+  .inputstyle {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .login-button {
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0069d9; /* Darker on hover */
+  }
